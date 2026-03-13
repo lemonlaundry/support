@@ -32,6 +32,7 @@ box-shadow:0 6px 20px rgba(0,0,0,0.2);
 
 .logo{
 width:120px;
+margin-top:10px;
 margin-bottom:10px;
 }
 
@@ -49,6 +50,7 @@ margin-bottom:20px;
 .help-text{
 font-size:16px;
 margin-bottom:20px;
+line-height:1.4;
 }
 
 .button{
@@ -61,6 +63,8 @@ border-radius:12px;
 text-decoration:none;
 font-size:17px;
 font-weight:bold;
+transition:0.15s;
+box-shadow:0 3px 8px rgba(0,0,0,0.15);
 }
 
 .button-alt{
@@ -73,6 +77,13 @@ border-radius:12px;
 text-decoration:none;
 font-size:17px;
 font-weight:bold;
+transition:0.15s;
+box-shadow:0 3px 8px rgba(0,0,0,0.12);
+}
+
+.button:hover,
+.button-alt:hover{
+transform:scale(0.98);
 }
 
 .popup{
@@ -125,15 +136,14 @@ Lemon Laundry
 </div>
 
 <div class="address">
-142 Dang Vu Hy street<br>
+142 Dang Vu Hy St.
 </div>
 
 <div class="help-text">
-Need assistance? We're happy to help.
+Need help or have any questions?<br>
+Feel free to contact us.
 </div>
 
-
-<!-- WhatsApp -->
 
 <a class="button"
 href="https://wa.me/84941306684?text=Hello%20Lemon%20Laundry%2C%20I%20need%20help">
@@ -141,14 +151,10 @@ WhatsApp
 </a>
 
 
-<!-- Call -->
-
 <a class="button-alt" href="tel:+84941306684">
 Call Store
 </a>
 
-
-<!-- Zalo -->
 
 <a class="button"
 href="https://zalo.me/84941306684">
@@ -156,22 +162,16 @@ Zalo
 </a>
 
 
-<!-- WeChat -->
-
 <a class="button-alt" onclick="showWeChat()">
 WeChat
 </a>
 
-
-<!-- Kakao -->
 
 <a class="button"
 href="https://open.kakao.com/o/xxxx">
 KakaoTalk
 </a>
 
-
-<!-- LINE -->
 
 <a class="button-alt"
 href="https://line.me/ti/p/xxxx">
@@ -180,8 +180,6 @@ LINE
 
 </div>
 
-
-<!-- WeChat popup -->
 
 <div id="wechatPopup" class="popup">
 
