@@ -51,10 +51,11 @@ font-size:16px;
 margin-bottom:20px;
 }
 
-.button, .button-alt{
-display:flex;
-align-items:center;
-padding:16px 18px;
+.button{
+display:block;
+background:#00BFFF;
+color:white;
+padding:16px;
 margin:12px 0;
 border-radius:12px;
 text-decoration:none;
@@ -62,39 +63,16 @@ font-size:17px;
 font-weight:bold;
 }
 
-.button{
-background:#00BFFF;
-color:white;
-}
-
 .button-alt{
-background:#F3EAD7;
+display:block;
+background:#F8F6EF;
 color:#333;
-}
-
-.whatsapp{
-font-size:18px;
-padding:18px;
-}
-
-.icon-box{
-width:34px;
-display:flex;
-align-items:center;
-justify-content:center;
-margin-right:12px;
-}
-
-.icon{
-width:24px;
-height:24px;
-object-fit:contain;
-}
-
-.button span,
-.button-alt span{
-flex:1;
-text-align:center;
+padding:16px;
+margin:12px 0;
+border-radius:12px;
+text-decoration:none;
+font-size:17px;
+font-weight:bold;
 }
 
 .popup{
@@ -147,8 +125,7 @@ Lemon Laundry
 </div>
 
 <div class="address">
-142 Dang Vu Hy<br>
-
+142 Dang Vu Hy street<br>
 </div>
 
 <div class="help-text">
@@ -158,20 +135,16 @@ Need assistance? We're happy to help.
 
 <!-- WhatsApp -->
 
-<a class="button whatsapp"
+<a class="button"
 href="https://wa.me/84941306684?text=Hello%20Lemon%20Laundry%2C%20I%20need%20help">
-<div class="icon-box">
-<img src="whatsapp.png" class="icon">
-</div>
-<span>WhatsApp</span>
+WhatsApp
 </a>
 
 
 <!-- Call -->
 
 <a class="button-alt" href="tel:+84941306684">
-<div class="icon-box">📞</div>
-<span>Call Store</span>
+Call Store
 </a>
 
 
@@ -179,20 +152,14 @@ href="https://wa.me/84941306684?text=Hello%20Lemon%20Laundry%2C%20I%20need%20hel
 
 <a class="button"
 href="https://zalo.me/84941306684">
-<div class="icon-box">
-<img src="zalo.png" class="icon">
-</div>
-<span>Zalo</span>
+Zalo
 </a>
 
 
 <!-- WeChat -->
 
 <a class="button-alt" onclick="showWeChat()">
-<div class="icon-box">
-<img src="wechat.png" class="icon">
-</div>
-<span>WeChat</span>
+WeChat
 </a>
 
 
@@ -200,10 +167,7 @@ href="https://zalo.me/84941306684">
 
 <a class="button"
 href="https://open.kakao.com/o/xxxx">
-<div class="icon-box">
-<img src="kakao.png" class="icon">
-</div>
-<span>KakaoTalk</span>
+KakaoTalk
 </a>
 
 
@@ -211,10 +175,7 @@ href="https://open.kakao.com/o/xxxx">
 
 <a class="button-alt"
 href="https://line.me/ti/p/xxxx">
-<div class="icon-box">
-<img src="line.png" class="icon">
-</div>
-<span>LINE</span>
+LINE
 </a>
 
 </div>
